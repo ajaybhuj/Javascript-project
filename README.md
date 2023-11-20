@@ -2,8 +2,8 @@
 
 # Project 1: Color Switcher
 This Project let the user change the BackgroundColor by clicking on the box which color the user want
-## HTML Code
-``` html
+## HTML & CSS Code
+``` html 
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,27 +13,7 @@ This Project let the user change the BackgroundColor by clicking on the box whic
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="../styles.css" />
     <title>JavaScript Background Color Switcher</title>
-  </head>
-  <body>
-    <div class="canvas">
-      <h1>Color Scheme Switcher</h1>
-      <span class="button" id="grey"></span>
-      <span class="button" id="white"></span>
-      <span class="button" id="blue"></span>
-      <span class="button" id="yellow"></span>
-      <h2>
-        Try clicking on one of the colors above
-        <span>to change the background color of this page!</span>
-      </h2>
-    </div>
-    <script src="index.js"></script>
-  </body>
-</html>
-
-
-```
-## CSS Code
-``` html
+   <style>
 html {
   margin: 0;
 }
@@ -67,6 +47,24 @@ span {
 #yellow {
   background: yellow;
 }
+<style/>
+  </head>
+  <body>
+    <div class="canvas">
+      <h1>Color Scheme Switcher</h1>
+      <span class="button" id="grey"></span>
+      <span class="button" id="white"></span>
+      <span class="button" id="blue"></span>
+      <span class="button" id="yellow"></span>
+      <h2>
+        Try clicking on one of the colors above
+        <span>to change the background color of this page!</span>
+      </h2>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
+
 
 ```
 ## Javascript Code
