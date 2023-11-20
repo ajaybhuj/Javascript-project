@@ -33,7 +33,7 @@ This Project let the user change the BackgroundColor by clicking on the box whic
 
 ```
 ## CSS Code
-``` javascript
+``` css
 html {
   margin: 0;
 }
