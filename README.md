@@ -13,8 +13,8 @@ This Project let the user change the BackgroundColor by clicking on the box whic
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="../styles.css" />
     <title>JavaScript Background Color Switcher</title>
-   <style>
-html {
+    <style>
+  html {
   margin: 0;
 }
 
@@ -47,7 +47,7 @@ span {
 #yellow {
   background: yellow;
 }
-<style/>
+    </style>
   </head>
   <body>
     <div class="canvas">
