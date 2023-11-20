@@ -1,7 +1,7 @@
 # Javascript-project
 
 # Project 1: Color Switcher
-
+This Project let the user change the BackgroundColor by clicking on the box which color the user want
 ```javascript
 const body = document.querySelector("body");
 const btns = body.querySelectorAll(".button");
