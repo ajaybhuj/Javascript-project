@@ -1,7 +1,8 @@
 # Javascript-project
-# Project 1: Color Switcher
-``` javascript
 
+# Project 1: Color Switcher
+
+```javascript
 const body = document.querySelector("body");
 const btns = body.querySelectorAll(".button");
 
@@ -21,9 +22,8 @@ btns.forEach((b) => {
     }
   });
 });
-
-    
-
-
-
 ```
+
+# Project ScreenShot
+
+![project screenShot](https://github.com/ajaybhuj/Javascript-project/blob/main/Color%20Scheme%20Switcher/screenshot.png)
