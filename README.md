@@ -13,7 +13,7 @@ JavaScript (index.js): The script handles the functionality. It selects the body
 
 Overall, this project provides a straightforward example of using JavaScript to dynamically change the background color of a webpage based on user interaction with buttons.
 
-# Code Explanation:
+# Code Explanation
 
 const body = document.querySelector("body");: This line selects the body element of the HTML document using the document.querySelector method. It assigns this reference to the variable body for easier access.
 
