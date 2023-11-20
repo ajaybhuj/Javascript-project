@@ -3,7 +3,7 @@
 # Project 1: Color Switcher
 This Project let the user change the BackgroundColor by clicking on the box which color the user want
 ## HTML Code
-``` javascipt
+``` html
 <!DOCTYPE html>
 <html lang="en">
   <head>
