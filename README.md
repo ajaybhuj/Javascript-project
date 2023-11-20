@@ -13,6 +13,22 @@ JavaScript (index.js): The script handles the functionality. It selects the body
 
 Overall, this project provides a straightforward example of using JavaScript to dynamically change the background color of a webpage based on user interaction with buttons.
 
+Code Explanation:
+
+const body = document.querySelector("body");: This line selects the body element of the HTML document using the document.querySelector method. It assigns this reference to the variable body for easier access.
+
+const btns = body.querySelectorAll(".button");: This line selects all elements with the class "button" within the body. The result is a NodeList containing references to these button elements, and it is assigned to the variable btns.
+
+btns.forEach((b) => { ... });: This code iterates over each button in the NodeList (btns) using the forEach method.
+
+b.addEventListener("click", (e) => { ... });: For each button (b), an event listener is added for the "click" event. When a button is clicked, the provided arrow function is executed.
+
+if (e.target.id === "grey") { body.style.backgroundColor = e.target.id; }: Inside the click event handler, this checks if the clicked button's ID is "grey." If true, it sets the background color of the body to grey.
+
+if (e.target.id === "white") { body.style.backgroundColor = e.target.id; }, if (e.target.id === "yellow") { body.style.backgroundColor = e.target.id; }, if (e.target.id === "blue") { body.style.backgroundColor = e.target.id; }: Similar checks for the other button colors (white, yellow, blue) and sets the background color accordingly.
+
+In summary, the JavaScript code listens for clicks on the colored buttons, identifies the clicked button, and changes the background color of the page based on the button's color. The e.target.id represents the ID of the clicked button.
+
 ## HTML & CSS Code
 
 ```html
